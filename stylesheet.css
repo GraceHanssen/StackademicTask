@@ -1,0 +1,188 @@
+/* base styles */
+body {
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  /* nav */
+  
+  #navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+  }
+  
+  nav ul {
+    color: lightblue;
+  }
+  
+  a {
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+  }
+  
+  ul {
+    float: left;
+    color: white;
+    padding-left: 2%;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  a:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+    padding-right: 2%;
+    padding-top: 0%;
+    font-size: 40px;
+    font-family: Verdana;
+  } 
+  
+  h2 {
+    color: black;
+    font-size: 55px;
+    font-family: Verdana;
+  } 
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  .intro {
+    padding-top: 35vh;
+    min-height: 50vh;
+    text-align: center;
+    font-family: Verdana;
+    color: black;
+    text-shadow: 0 0 7px black;
+  }
+  
+  .intro h1:hover {
+    color: white;
+  }
+  
+  .intro p:hover {
+    color: white;
+  }
+  
+  
+  .intro p {
+    font-size: 30px;
+  }
+  
+  * {
+    margin: 0; 
+    padding: 0;
+  }
+  
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin: 20px;
+    }
+    
+    .project {
+      margin: 40px 0;
+    }
+  }
+  
+  .work {
+    padding-top: 60px;
+    margin-top: -40px;
+  }
+  
+  .work .work-header {
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  .project {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    overflow: hidden;
+    border: 0.5px solid gray;
+    height: 220px;
+    width: 280px;
+    margin: 100px;
+  }
+  
+  .project-pic {
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid gray; 
+  }
+  
+  .project-title {
+    font-weight: bold;
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul li {
+      margin: 20px;
+    }
+    
+    .projects {
+      margin: 40px 0;
+    }
+  }
+  
+  .header {
+    padding: 160px 0 110px;
+  }
+  
+  #welcome-section {
+    background-color: white;
+  }
+  #projects {
+    padding-top: 2%;
+    background-color: lightblue;
+  }
+  
+  /* contact-section */
+  
+  section {
+    text-align: center;
+    background-color: gray;
+    padding: 30px 30px 30px 30px;
+  }
+  
+  section p {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  
+  /*footer*/
+  
+  footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
